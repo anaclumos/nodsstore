@@ -34,6 +34,7 @@ from math import ceil, log
 
 offset = ceil(log(len(files_to_remove), 10))
 
+print()
 for count, value in enumerate(files_to_remove):
     print(
         termcolor.OKGREEN
